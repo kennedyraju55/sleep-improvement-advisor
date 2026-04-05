@@ -23,21 +23,21 @@ def main():
     # Parse a sleep log CSV file.
     print("📝 Example: parse_sleep_log()")
     result = parse_sleep_log(
-        filepath="sample.txt"  # Replace with actual file path
+        filepath="sample.txt"
     )
     print(f"   Result: {result}")
     print()
     # Compute summary statistics from sleep log entries.
     print("📝 Example: compute_sleep_stats()")
     result = compute_sleep_stats(
-        entries=5
+        entries=[{"key": "value"}]
     )
     print(f"   Result: {result}")
     print()
     # Calculate a sleep score from 0-100 based on sleep statistics.
     print("📝 Example: calculate_sleep_score()")
     result = calculate_sleep_score(
-        stats="sample data"
+        stats={}
     )
     print(f"   Result: {result}")
     print()
