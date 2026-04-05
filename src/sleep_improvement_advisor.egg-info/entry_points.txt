@@ -1,0 +1,2 @@
+[console_scripts]
+sleep-advisor = sleep_advisor.cli:main
